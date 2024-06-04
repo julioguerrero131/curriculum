@@ -18,23 +18,31 @@
         <p><span>Nombre:</span> Julio Guerrero</p>
     </header>
     
-    <section>
-        <h2 class="secondary-title">Experiencia laboral</h2>
+    <nav>
         <ul>
-            <li>Ayudante de Fundamentos de Programación</li>
+            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#">Formación</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Inicio Experiencia -->
+    <section id="experiencia">
+        <div id="experiencia-text">
+            <h2 class="secondary-title">Experiencia laboral</h2>
+            <ul>
+                <li>Ayudante de Fundamentos de Programación</li>
             <li>Estudiante de Ingeniería de Computación en ESPOL</li>
         </ul>
-    </section>
 
-    <section>
         <h2 class="secondary-title">Habilidades técnicas</h2>
         <ol>
-            <li>Front-end: HTML, CSS, JavaScript con frameworks y librerías como: React y Express</li>
+            <li>Front-end: HTML, CSS, JavaScript</li> 
+            <li>Frameworks y librerías como: React y Express</li>
             <li>Desarrollo en Javas: POO y JavaFX</li>
         </ol>
-    </section>
-
-    <section id="table-container">
+        
         <h2 class="secondary-title">Cursos</h2>
         <table id="table" border="1">
             <tr>
@@ -54,9 +62,18 @@
                 <td>Udemy</td>
             </tr>
         </table>
+        </div>
+        
+        <div id="experiencia-video">
+            <video controls>
+                <source src="/videos/istockphoto-1490392845-640_adpp_is.mp4" >
+            </video>
+        </div>
     </section>
-
-    <section>
+    <!-- Fin Experiencia -->
+    
+    <!-- Inicio Proyectos -->
+    <section id="proyectos">
         <h2 class="secondary-title">Proyectos</h2>
         <div id="projects">
             <div class="project">
@@ -74,8 +91,10 @@
         </div>
         
     </section>
-
-    <section>
+    <!-- Fin Proyectos -->
+    
+    <!-- Inicio Formacion -->
+    <section id="formacion">
         <h2 class="secondary-title">Formación Académica</h2>
         <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate doloremque sunt laudantium laborum
@@ -97,11 +116,9 @@
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </span>
     </section>
+    <!-- Fin formacion -->
 
-    <section>
-        <video src="/videos/istockphoto-1490392845-640_adpp_is.mp4"></video>
-    </section>
-
+    <!-- Inicio Contacto -->
     <section>
         <h2 class="secondary-title">Formulario de Contacto</h2>
         <form>
@@ -122,10 +139,13 @@
             </div>
         </form>
     </section>
+    <!-- Fin Contacto -->
 
+    <!-- Inicio Footer -->
     <footer>
         <span>Julio Guerrero &copy;2024</span>
     </footer>
+    <!-- Fin Footer -->
 
 </body>
 
