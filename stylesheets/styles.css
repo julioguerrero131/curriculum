@@ -19,6 +19,9 @@ p {
 }
 
 /* CSS Propio */
+
+/* General */
+
 body {
     background-color: #fffffe;
 }
@@ -28,6 +31,12 @@ h1,
     color: #094067;
 }
 
+p > span {
+    font-weight: bold;
+    color: cadetblue;
+}
+
+/* Secciones */
 #projects {
     display: flex;
     flex-direction: row;
@@ -57,6 +66,8 @@ section {
         rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
+/* Tabla */
+
 #table {
     border: 1px solid black;
     border-collapse: collapse;
@@ -68,6 +79,8 @@ section {
 #table tr td {
     padding: 5px;
 }
+
+/* Form */
 
 input, 
 button,
@@ -81,10 +94,7 @@ button {
     color: #fffffe;
 }
 
-p>span {
-    font-weight: bold;
-    color: cadetblue;
-}
+/* Footer */
 
 footer {
     display: flex;
